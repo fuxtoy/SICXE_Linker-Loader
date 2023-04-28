@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SICXE_Linker-Loader/static/css/main.9bb53adb.css",
-    "main.js": "/SICXE_Linker-Loader/static/js/main.39f2262d.js",
+    "main.js": "/SICXE_Linker-Loader/static/js/main.efc761ef.js",
     "index.html": "/SICXE_Linker-Loader/index.html",
     "main.9bb53adb.css.map": "/SICXE_Linker-Loader/static/css/main.9bb53adb.css.map",
-    "main.39f2262d.js.map": "/SICXE_Linker-Loader/static/js/main.39f2262d.js.map"
+    "main.efc761ef.js.map": "/SICXE_Linker-Loader/static/js/main.efc761ef.js.map"
   },
   "entrypoints": [
     "static/css/main.9bb53adb.css",
-    "static/js/main.39f2262d.js"
+    "static/js/main.efc761ef.js"
   ]
 }
