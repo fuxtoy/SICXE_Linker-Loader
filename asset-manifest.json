@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/SICXE_Linker-Loader/static/css/main.b15d4bc2.css",
-    "main.js": "/SICXE_Linker-Loader/static/js/main.5e5b203f.js",
-    "static/js/787.28cb0dcd.chunk.js": "/SICXE_Linker-Loader/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/SICXE_Linker-Loader/static/css/main.d86b2116.css",
+    "main.js": "/SICXE_Linker-Loader/static/js/main.c45a8fa9.js",
     "index.html": "/SICXE_Linker-Loader/index.html",
-    "main.b15d4bc2.css.map": "/SICXE_Linker-Loader/static/css/main.b15d4bc2.css.map",
-    "main.5e5b203f.js.map": "/SICXE_Linker-Loader/static/js/main.5e5b203f.js.map",
-    "787.28cb0dcd.chunk.js.map": "/SICXE_Linker-Loader/static/js/787.28cb0dcd.chunk.js.map"
+    "main.d86b2116.css.map": "/SICXE_Linker-Loader/static/css/main.d86b2116.css.map",
+    "main.c45a8fa9.js.map": "/SICXE_Linker-Loader/static/js/main.c45a8fa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b15d4bc2.css",
-    "static/js/main.5e5b203f.js"
+    "static/css/main.d86b2116.css",
+    "static/js/main.c45a8fa9.js"
   ]
 }
