@@ -1,4 +1,4 @@
-<h1>SIC-Assmebler-by-Javascript</h1>
+<h1>SIC/XE-Linker Loader-by-Javascript</h1>
 <strong>Step1.</strong></br>
 Navigate to <a href= "https://fuxtoy.github.io/SICXE_Linker-Loader/> SICXE_Linker-Loader project </a></br>
 <strong>Step2.</strong></br>
