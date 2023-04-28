@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SICXE_Linker-Loader/static/css/main.e7cf31c6.css",
+    "main.js": "/SICXE_Linker-Loader/static/js/main.5e5b203f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SICXE_Linker-Loader/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/SICXE_Linker-Loader/index.html",
+    "main.e7cf31c6.css.map": "/SICXE_Linker-Loader/static/css/main.e7cf31c6.css.map",
+    "main.5e5b203f.js.map": "/SICXE_Linker-Loader/static/js/main.5e5b203f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SICXE_Linker-Loader/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7cf31c6.css",
+    "static/js/main.5e5b203f.js"
+  ]
+}
