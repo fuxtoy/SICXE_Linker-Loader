@@ -1,6 +1,6 @@
 <h1>SIC-Assmebler-by-Javascript</h1>
 <strong>Step1.</strong></br>
-Navigate to <a href= "https://fuxtoy.github.io/SIC_project/"> SIC project </a></br>
+Navigate to <a href= "https://fuxtoy.github.io/SICXE_Linker-Loader/> SICXE_Linker-Loader project </a></br>
 <strong>Step2.</strong></br>
 Click this file field to input your source file (SIC code).</br>
 <strong>Step3.</strong></br>
