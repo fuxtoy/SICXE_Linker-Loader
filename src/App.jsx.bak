@@ -39,7 +39,7 @@ export default function App() {
   }
 
   function writeInstruction() {
-    const instruction = "Step1. input file until your're done\nStep2. Confirm your Object Code is in the First box\nStep3. Press the button PASS\nStep4. The ESTAB and the Address will print out";
+    const instruction = "Step1. input file\nStep2. print";
     setInstruction(instruction);
     document.getElementById("output3").value = instruction;
   }
