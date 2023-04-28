@@ -3,34 +3,26 @@ main {
   vertical-align: center;
   line-height: 100vh
 }
-.title{
-  text-align: center;
-}
 .flex-container {
   height: 500px;
   display: flex;
-  padding: 0 150px;
   flex-direction: row;
   align-content: space-evenly;
-}
-.intro{
-  position: absolute;
-  left: 0;
-  top: 10%;
-  padding: 0 10px;
-  width: 100%;
-  text-align: center;
-  background: #CCE5FF;
 }
 .flex-column  {
   height: 500px;
   display: flex;
-  text-align: center;
   flex-direction: column ;
   align-content: space-evenly;
 }
 .textbox{
   width:600px;
+  white-space: pre;
+}
+.textbox_big{
+  width:600px;
+  height: 400px;
+  white-space: pre;
 }
 .output3 {
   height: 250px;
