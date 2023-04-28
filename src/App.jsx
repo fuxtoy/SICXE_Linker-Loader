@@ -4,7 +4,7 @@ import {Pass1} from './Pass1.jsx';
 import {Pass2} from './Pass2.jsx';
 import * as common from './common.jsx';
 export default function App() {
-
+  
   const [content, setContent] = useState('');
   const [sym, setSYM] = useState('');
   const [proglen, setProglen] = useState('');
@@ -29,6 +29,9 @@ function writeoutput() {
   document.getElementById("output2").value = outputString;
   document.getElementById("output4").value = Pass2(content,ESTAB);
 }
+function write_instruction(){
+  document.getElementById("output3").value = "123";
+}
 
 
 
@@ -36,7 +39,8 @@ function writeoutput() {
 
 
   return (
-    <div>
+    <div class = "intro">
+      <h1 class = "title">SIC/XE Linker & Loader</h1>
       <div class = "flex-container">
         <div class = "flex-column">
           <input 
@@ -45,13 +49,16 @@ function writeoutput() {
           </input>
           <button class = "button" onClick={writeoutput}
             >PASS</button>
-          <textarea id="output3" type="text" disabled={true} class ="output3" >Step1. input file &#13;Step2. Press "PASS"</textarea>
+          <textarea id="output3" type="text" disabled={true} class ="output3">{write_instruction}</textarea>
+
+
         </div>
 
         <textarea id="output1" type="text" disabled={true} class = "textbox"></textarea>
         <textarea id="output2" type="text" disabled={true} class = "textbox"></textarea>
       </div>
-      <div>
+      <br/>
+      <div class = "flex-container">
         <textarea id="output4" type="text" disabled={true} class = "textbox_big"></textarea>  
       </div>
 
