@@ -43,8 +43,8 @@ export function Pass2(objectCode, ESTAB) {
         break;
       }
       case "T": {
-        const dataLength = parseInt(line.substring(1, 3), 16);
-        const startAddress = parseInt(line.substring(3, 9), 16) + address;
+        const dataLength = parseInt(line.substring(7, 9), 16);
+        const startAddress = parseInt(line.substring(1, 7), 16) + address;
         const data = line.substring(9).match(/.{1,2}/g) || [];
         output += `Object Code:\n`;
         output += `${startAddress.toString(16).toUpperCase().padStart(6, "0")}  `;
@@ -58,8 +58,8 @@ export function Pass2(objectCode, ESTAB) {
       }
       case "M": {
         const startAddress = parseInt(line.substring(1, 7), 16) + address;
-        const flags = line.substring(7, 8);
-        const symbolName = line.substring(8, 14).trim();
+        const flags = line.substring(9, 10);
+        const symbolName = line.substring(10, 15);
         const symbolAddress = ESTAB[symbolName];
         let value = parseInt(line.substring(14), 16);
         if (value > 0x7FFFFF) {
@@ -71,7 +71,7 @@ export function Pass2(objectCode, ESTAB) {
           value -= symbolAddress;
         }
         const newValue = value.toString(16).toUpperCase().padStart(6, "0");
-        output += `${startAddress.toString(16).toUpperCase().padStart(6, "0")} ${line.substring(1, 7)} ${flags}${symbolName} ${newValue}\n`;
+        output += `${startAddress.toString(16).toUpperCase().padStart(6, "0")} ${line.substring(1, 7)} ${flags} ${symbolName}\n`;
         address = startAddress + 3;
         break;
       }
